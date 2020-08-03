@@ -1,7 +1,8 @@
-import React from 'react';
-import styled from 'styled-components';
-import Card from './Card';
-import Followers from './Followers';
+import React, { useContext } from "react";
+import styled from "styled-components";
+import Card from "./Card";
+import Followers from "./Followers";
+import { GithubContext } from "../context/context";
 const User = () => {
   return <h2>search component</h2>;
 };
